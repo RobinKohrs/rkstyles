@@ -34,7 +34,7 @@ styler::specify_transformers_drop
 #' @export
 style_dir <- function(path = ".",
                       ...,
-                      style = putyourstyleguidehere_style,
+                      style = rkstyles,
                       transformers = style(...),
                       filetype = c("R", "Rprofile"),
                       recursive = TRUE,
