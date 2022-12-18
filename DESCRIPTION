@@ -1,12 +1,12 @@
-Package: styler.putyourstyleguidehere
+Package: rkstyles
 Title: Third-party Style Guide For 'putyourstyleguidehere'
 Version: 0.0.1
 Authors@R: 
-    person(given = "Hand",
-           family = "Muster",
+    person(given = "Robin",
+           family = "Kohrs",
            role = c("aut", "cre"),
            email = "hans@muster.de")
-Description: styles code according to the putyourstyleguidehere using
+Description: styles code according to the rkstyles using
     'styler'.
 License: MIT + file LICENSE
 Imports: 
