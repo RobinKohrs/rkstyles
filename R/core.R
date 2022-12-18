@@ -48,7 +48,7 @@ rkstyles <- function(scope = "tokens",
     # transformer options
     use_raw_indention = use_raw_indention,
     reindention = reindention,
-    style_guide_name = "styler.putyourstyleguidehere::rkstyles@https://github.com/putyourGitHubUserNameHere/styler.putyourstyleguidehere/",
+    style_guide_name = "styler.putyourstyleguidehere::rkstyles@https://github.com/robinkohrs/styler.putyourstyleguidehere/",
     style_guide_version = version,
     more_specs_style_guide = args
   )
