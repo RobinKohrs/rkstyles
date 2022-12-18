@@ -11,7 +11,7 @@ version <- unlist(unname(read.dcf("DESCRIPTION")[, "Version"]))
 #' style_text("call( 1)", scope = "spaces")
 #' @importFrom purrr partial
 #' @export
-putyourstyleguidehere_style <- function(scope = "tokens",
+rkstyles <- function(scope = "tokens",
                                         strict = TRUE,
                                         indent_by = 2,
                                         start_comments_with_one_space = FALSE,
@@ -48,7 +48,7 @@ putyourstyleguidehere_style <- function(scope = "tokens",
     # transformer options
     use_raw_indention = use_raw_indention,
     reindention = reindention,
-    style_guide_name = "styler.putyourstyleguidehere::putyourstyleguidehere_style@https://github.com/putyourGitHubUserNameHere/styler.putyourstyleguidehere/",
+    style_guide_name = "styler.putyourstyleguidehere::rkstyles@https://github.com/putyourGitHubUserNameHere/styler.putyourstyleguidehere/",
     style_guide_version = version,
     more_specs_style_guide = args
   )
